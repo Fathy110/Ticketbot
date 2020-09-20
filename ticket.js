@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '#'
 client.on('ready', () => {
 console.log('[ BOT IS ONLINE ]')
 console.log('Alpha support')
@@ -22,11 +21,11 @@ client.on("message", async message => {
   if (message.author.bot || message.channel.type === "dm") return;
   let args = message.content.split(" ");
   let author = message.author.id;
-  if (args[0].toLowerCase() === `#`) {
+  if (args[0].toLowerCase() === `#by`) {
     let embed = new Discord.RichEmbed()
-      .addField(`#by`);
+      .addField(`by`);
     await message.channel.send(
-      `by FireKing 👑#0444**`
+      ` FireKing 👑#0444**`
     );
     await message.channel.send(embed);
   } else if (args[0].toLowerCase() === `#new`) {
