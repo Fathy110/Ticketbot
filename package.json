@@ -1,0 +1,17 @@
+{
+  "name": ticketbot",
+  "version": "1.0.0",
+  "description": "project by FireKing 🔥#0444",
+  "main": "ticket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "11.6.4",
+    "express": "^4.17.1",
+    "guild": "^1.2.2",
+  }
+}
